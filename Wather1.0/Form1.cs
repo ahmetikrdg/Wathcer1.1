@@ -101,8 +101,8 @@ namespace Wather1._0
 
         private void btnekle_Click(object sender, EventArgs e)
         {
-            textler = txtekle.Text;
-            s = "\"{0}\"",a ;
+            textler ="\"{0}\"", txtekle.Text;
+           // s = "\"{0}\"",a ;
             MessageBox.Show(s);
             
         }
